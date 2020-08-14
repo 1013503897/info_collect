@@ -1,0 +1,8 @@
+查看本地用户组   localgroup|Select-Object Name,Description,SID |ConvertTo-Json
+查看补丁 hotfix |Select-Object Description,HotFixID,Caption|ConvertTo-Json
+查看服务 Get-Service |Select-Object DisplayName,ServiceName,ServicesDependedOn|ConvertTo-Json
+查看用户 Get-WmiObject -Class Win32_UserAccount -Filter  "LocalAccount='TRUE'"|Select-Object Name,Description,SID,Password* |ConvertTo-Json
+查看会话信息 qwinsta /server:$server | ForEach-Object { $_.Trim() -replace "\s+", "," } | ConvertFrom-Csv|ConvertTo-Json
+ipconfig:Get-NetIPConfiguration
+查看父进程ID Get-CimInstance -Class Win32_Process -Filter "ProcessId=$pid"|Select-Object parentProcessId
+查看安装列表 Get-WmiObject win32_product|Select-Object Name,Vendor,IdentifyingNumber,Version|ConvertTo-Json
