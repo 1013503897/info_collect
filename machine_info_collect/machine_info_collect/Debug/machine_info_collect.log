@@ -1,0 +1,9 @@
+﻿  machine_info_collect.cpp
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(84,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'LPWSTR'
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(84,10): message : consider using '%ls' in the format string
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(84,10): message : consider using '%lls' in the format string
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(84,10): message : consider using '%Ls' in the format string
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(84,10): message : consider using '%ws' in the format string
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(142,13): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'LPUSER_INFO_0'
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(338,10): warning C4101: 'pPowers': unreferenced local variable
+  machine_info_collect.vcxproj -> C:\Users\weixingyu\source\repos\machine_info_collect\Debug\machine_info_collect.exe

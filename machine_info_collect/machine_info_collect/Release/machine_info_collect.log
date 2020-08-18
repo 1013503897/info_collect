@@ -1,0 +1,13 @@
+﻿  machine_info_collect.cpp
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,16): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“LPWSTR”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,16): message : 请考虑在格式字符串中使用“%ls”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,16): message : 请考虑在格式字符串中使用“%lls”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,16): message : 请考虑在格式字符串中使用“%Ls”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,16): message : 请考虑在格式字符串中使用“%ws”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(129,32): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“LPUSER_INFO_0”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(367,80): error C2664: “BOOL CreateProcessA(LPCSTR,LPSTR,LPSECURITY_ATTRIBUTES,LPSECURITY_ATTRIBUTES,BOOL,DWORD,LPVOID,LPCSTR,LPSTARTUPINFOA,LPPROCESS_INFORMATION)”: 无法将参数 9 从“STARTUPINFO *”转换为“LPSTARTUPINFOA”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(367,66): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\processthreadsapi.h(361,1): message : 参见“CreateProcessA”的声明
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(393,55): error C2664: “LPWSTR lstrcpynW(LPWSTR,LPCWSTR,int)”: 无法将参数 1 从“char *”转换为“LPWSTR”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(393,18): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winbase.h(2760,1): message : 参见“lstrcpynW”的声明

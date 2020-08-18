@@ -1,0 +1,11 @@
+﻿  machine_info_collect.cpp
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,10): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“LPWSTR”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,10): message : 请考虑在格式字符串中使用“%ls”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,10): message : 请考虑在格式字符串中使用“%lls”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,10): message : 请考虑在格式字符串中使用“%Ls”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(71,10): message : 请考虑在格式字符串中使用“%ws”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(129,13): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“LPUSER_INFO_0”
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(364,41): warning C4474: sprintf_s: 格式字符串中传递的参数太多
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(364,41): message : 占位符和其参数预计 0 可变参数，但提供的却是 1 参数
+C:\Users\weixingyu\source\repos\machine_info_collect\machine_info_collect\machine_info_collect.cpp(387,49): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  machine_info_collect.vcxproj -> C:\Users\weixingyu\source\repos\machine_info_collect\x64\Debug\machine_info_collect.exe
